@@ -1,0 +1,32 @@
+main{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+.board{
+    position: relative;
+    padding: 0 450px;
+    margin: 0;
+    border: none;
+    background-color: rgb(45,45,52);
+}
+h1{
+    display: inline-block;
+    position: relative;
+    left: 175px;
+    color: aliceblue;
+}
+h2{
+    position: relative;
+    left: 200px;
+    color: rgb(0,155,114)
+}
+.new-game{
+    position: relative;
+    left: 200px;
+    border-radius: 50%;
+    height: 60px;
+    background-color: rgb(103,97,168);}
+app-square{
+    position: center;
+    height: 200px;
+}
